@@ -1,0 +1,830 @@
+@media screen and (min-width:980px){
+
+
+@charset "utf-8";
+/* CSS Document */
+
+h1 h2 h3 h4 h5 h6{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width:100%;
+	text-align:center !important;
+	background-image:url("../images/hatake.jpg");
+	font-family:"メイリオ", Meiryo, sans-serif;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	margin:0 !important;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center center;
+	
+}
+
+#wrapper{
+    width:85%;
+	height:100%;
+	background:rgba(255,255,255,1);
+    margin:0 auto;
+}
+
+/*--ヘッダー--*/
+#header{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+}
+
+
+
+#header .logo{
+	float:left;
+	width:70%;
+	margin-top:3%;
+	text-align:left;
+}
+
+#header .logo a{
+	text-decoration:none;
+	border-style:none;
+}
+
+#header .logo img{
+	border-style:none;
+}
+
+#header .logo h1{
+	width:100%;
+	display:inline;
+	font-size:100%;
+	color:#333;
+	margin-top:1%;
+}
+
+#header p{
+	float:right;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	font-weight:bold;
+	text-align:left;
+	font-size:100%;
+	line-height:1em;
+	color:#333;
+	margin:4% 3% 0 0;
+}
+
+/*--ファーストビューイメージ--*/
+#first_view{
+	width:100%;
+	height:100%;
+	margin-bottom:2%;
+	position:relative;
+	overflow: hidden;
+	zoom:1;
+}
+
+#first_view img{
+	width:100%;
+}
+
+#first_view .title img{
+	width:45%;
+}
+
+
+#first_view p{
+	width:100%;
+	height:auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	margin: auto;
+}
+
+
+
+/*--アクションバー--*/
+#purchase{
+	width:100%;
+	height:30%;
+	margin-bottom:2%;
+}
+
+.purchase_btn a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+.purchase_btn{
+	width:50%;
+	font-size:130%;
+	border-radius:6px;
+	outline:0;
+	padding:12px;
+	margin:0 auto;
+	text-shadow:0 -1px 1px rgba(0, 0, 0, 0.4), 0 1px 1px rgba(255, 255, 255, 0.5);
+	border:none;
+	box-shadow:inset 0 -1px 1px rgba(0, 0, 0, 0.9), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+	font-family:"HGMaruGothicMPRO","メイリオ", Meiryo, sans-serif;
+	background:-webkit-linear-gradient(#5fe76d, #19b328);
+	background:-moz-linear-gradient(#5fe76d, #19b328);
+	background:-ms-linear-gradient(#5fe76d, #19b328);
+	background:linear-gradient(#5fe76d, #19b328);
+	-webkit-box-shadow:1px 1px 1px rgba(0,0,0,0.5), inset 1px 1px 1px rgba(255,255,255,0.5);
+	box-shadow:1px 1px 1px rgba(0,0,0,0.5), inset 1px 1px 1px rgba(255,255,255,0.5);
+}
+
+.purchase_btn:hover{
+	opacity:1;
+	-webkit-animation:flash 1.5s;
+	animation:flash 1.5s;
+}
+
+@-webkit-keyframes flash{
+	0% {
+		opacity:.4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash{
+	0% {
+		opacity:.4;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+/*--メインコンテンツ--*/
+#contents{
+	width:100%;
+}
+
+/*--黒砂糖ってどういうもの？--*/
+#first_content{
+	display:block;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	padding-top:5%;
+}
+
+#first_content .kurozatou_ex{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+}
+
+#first_content .kurozatou_ex h2{
+	width:100%;
+	color:#0070BD;
+	font-family:"HGMaruGothicMPRO","メイリオ", Meiryo, sans-serif;
+	font-size:250%;
+	font-weight:bold;
+	text-align:center;
+	margin:0 auto;
+	padding:1% 0;
+}
+
+#first_content .kurozatou_ex p{
+	width:65%;
+	height:auto;
+	color:#665835;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	font-size:120%;	
+	font-weight:bold;
+	text-align:left;
+	margin:2% auto;
+}
+
+#first_content .ingredient{
+	width:80%;
+	height:auto;
+	display:block;
+	margin:3% auto;
+	clear:both;
+	overflow:hidden; 
+}
+
+
+#first_content .ingredient .box{
+	width:50%;
+	float:right;
+	padding-top:3%;
+}
+
+#first_content .ingredient h3{
+	display:block;
+	width:100%;
+	height:auto;
+	color:#665835;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	font-size:130%;
+	font-weight:bold;
+	text-align:left;
+}
+
+#first_content .ingredient p{
+	font-family:"メイリオ", Meiryo, sans-serif;
+	font-size:100%;
+	text-align:left;
+}
+
+#first_content .ingredient img{
+	float:left;
+	width:50%;
+}
+
+#first_content .taste{
+	width:80%;
+	height:auto;
+	display:block;
+	margin:3% auto;
+	clear:both;
+	overflow:hidden; 
+}
+
+#first_content .taste .box{
+	width:50%;
+	float:right;
+	padding-top:3%;
+}
+
+#first_content .taste h4{
+	display:block;
+	width:100%;
+	height:auto;
+	color:#665835;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	font-size:130%;
+	font-weight:bold;
+	text-align:left;
+}
+
+#first_content .taste p{
+	font-family:"メイリオ", Meiryo, sans-serif;
+	font-size:100%;
+	text-align:left;
+}
+
+#first_content .taste img{
+	float:left;
+	width:50%;
+}
+
+/*--黒砂糖と白砂糖って違うの？--*/
+#second_content{
+	display:block;
+	width:90%;
+	height:auto;
+	margin:0 auto;
+}
+
+#second_content .difference{
+	width:100%;
+	margin:0 auto;
+}
+
+#second_content .difference h2{
+	width: 100%;
+    color: #0070BD;
+    font-family: "HGMaruGothicMPRO","メイリオ", Meiryo, sans-serif;
+    font-size: 230%;
+    font-weight: bold;
+    text-align: center;
+    margin: 5% auto 0 auto;
+    padding: 2% 0 1% 0;
+}
+
+.difference p{
+	width:60%;
+	height: auto;
+	color:#665835;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	font-size:120%;	
+	font-weight:bold;
+	text-align:left;
+	margin:2% auto 5% auto;
+}
+
+.point{
+	margin:0 auto;
+	background-color:#ccc;
+	background-repeat: no-repeat;
+	background-position:left 30px;
+	height:400px;
+	width:750px;
+}
+
+#imp{
+	width:80%;
+	min-width:70%;
+	margin:3% auto 8% auto;
+}
+
+
+#imp .back1{
+	padding:2%;
+	font-size:120%;
+ 	background-color: #add6ff;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    z-index: 0;
+    color:#202020;
+}
+
+#imp .back1:before{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 4px;
+    z-index: -1;
+}
+
+
+#imp .back2{
+	padding:2%;
+	font-size:120%;
+	background-color: #8eff8e;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    z-index: 0;  
+    color:#202020; 
+}
+
+#imp .back2:before{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 4px;
+    z-index: -1;
+}
+
+
+#imp .back3{
+	padding:2%;
+	font-size:118%;
+	background-color: #ffb7db;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    z-index: 0;   
+    color:#202020;
+}
+
+#imp .back3:before{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 4px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+/*--奄美徳之島産「黒砂糖」--*/
+
+.triangle{
+	width:100%;
+	margin:0 auto;
+}
+
+
+#third_content{
+	width:90%;
+	height:100%;
+	margin:0 auto;
+	margin-top:3%;
+	overflow:hidden; 
+}
+
+
+
+#third_content .osusume{
+	display:inline;
+	width:45%;
+	float:left;
+}
+
+#third_content .osusume a{
+    text-decoration: none; 
+}
+
+#third_content .osusume h2{
+	color:#F36;
+	font-family:"HGMaruGothicMPRO","メイリオ", Meiryo, sans-serif;
+	font-size:120%;
+	font-weight:bold;
+	text-align:center;
+}
+
+#third_content .osusume img{
+	display:block;
+	text-align:center;
+	margin:0 auto;
+	border-style:none;
+}
+
+#third_content .osusume_ex{
+	display:inline;
+	width:48%;
+	height:auto;
+	float:right;
+	padding-top:10%;
+	margin:1%;
+}
+/*
+#third_content .osusume_ex h3{
+	color:#665835;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	font-size:23px;
+	font-weight:bold;
+	text-align:left;
+	padding-right:20px;
+}*/
+
+.repeat {
+	color:#665835;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	font-size:130%;
+	font-weight:bold;
+	text-align:left;
+	padding-top:10%;
+}
+
+#third_content .osusume_ex p{
+	font-family:"メイリオ", Meiryo, sans-serif;	
+	font-size:100%;
+	text-align:left;
+	overflow:hidden;
+	zoom:1;
+}
+
+
+.purchase_btn{
+	width:50%;
+	clear:both;
+	margin-top:3%;
+	height:auto;
+	display:block;
+}
+
+
+
+/*--奄美大島のお土産店とは--*/
+#fourth_content{
+	display:block;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+}
+
+#fourth_content .shop h4{
+	width:100%;
+	color:#0070BD;
+	font-family:"HGMaruGothicMPRO","メイリオ", Meiryo, sans-serif;
+	font-size:230%;
+	font-weight:bold;
+	text-align:center;
+	margin:12% auto 3%;
+}
+
+#fourth_content .shop {
+	width:65%;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	font-size:100%;	
+	text-align:left;
+	margin:0 auto 6%;
+}
+
+/*--こんな商品も扱っています--*/
+#fifth_content{
+	display:block;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	padding:0.5% 0;
+}
+
+#fifth_content h4{
+	color:#666;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	font-size:200%;
+	font-weight:bold;
+	color:#665835;
+	text-align:center;
+	margin:0;
+}
+
+#fifth_content .items table{
+	width:90%;
+	height:auto;
+	margin:0 auto;
+	table-layout:fixed;
+	border-spacing:15px;
+}
+
+#fifth_content .items tr{
+}
+
+#fifth_content .items td{
+	width:auto;
+	height:340px;
+	border:1px solid #999;
+}
+
+#fifth_content .items td img{
+	display:block;
+	width:80%;
+	height:auto;
+	margin:0 auto;
+}
+
+#fifth_content .items td p{
+	display:block;
+	width:80%;
+	height:auto;
+	font-family:"游明朝", YuMincho, "Hiragino Mincho ProN","メイリオ", Meiryo, sans-serif;
+	font-size:100%;
+	font-weight:bold;
+	line-height:1.7em;
+	margin:0 auto;
+	text-align:center;
+	border-bottom:1px solid #333;
+	padding:2% 0;
+}
+
+#fifth_content .items a{
+	text-decoration:none;
+}
+
+/*--こんなかたはぜひ一度、黒砂糖をお試しください--*/
+#sixth_content{
+	display:block;
+	width:80%;
+	height:60%;
+	margin:0 auto;
+	clear:both;
+}
+
+
+.otameshi {
+	width:80%;
+	color:#0070BD;
+	font-family:"HGMaruGothicMPRO","メイリオ", Meiryo, sans-serif;
+	font-size:140%;
+	font-weight:bold;
+	text-align:center;
+	margin:6% auto 0;
+	padding:2% 0;
+}
+
+
+#sixth_content ul{
+	float:left;
+	width:55%;
+	max-width:80%;
+}
+
+#sixth_content li{
+	display:block;
+	width:100%;
+	font-size:100%;
+	text-align:left;
+	border-bottom:1px #666 solid;
+	padding:5% 0 3% 3%;
+	}
+
+#sixth_content img{
+	float:right;
+}
+
+
+
+
+/*--お客様からの喜びの声--*/
+#seventh_content{
+	overflow:hidden;
+	display:block;
+	width:90%;
+	height:auto;
+	margin:0 auto;
+	padding:3% 0;
+}
+
+#seventh_content h4{
+	width:100%;
+	color:#0070BD;
+	font-family:"HGMaruGothicMPRO","メイリオ", Meiryo, sans-serif;
+	font-size:200%;
+	font-weight:bold;
+	text-align:center;
+	margin:7% auto 1%;
+}
+
+#seventh_content table{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	padding:2%;
+	table-layout:fixed;
+	border-spacing:12px 30px;
+}
+
+#seventh_content tr{
+	display:-webkit-box;
+	display:flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#seventh_content td{
+	width:32%;
+	height:auto;
+	padding:2% 0;
+	background-color:#fffacd;
+	margin-bottom:2%;
+}
+
+#seventh_content td .item_name{
+	max-width:100%;
+	height:auto;
+	margin:0 auto;
+}
+
+#seventh_content td .item_name p{
+	font-size:90%;
+	font-weight:bold;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	color:#665835;
+	text-align:justify;
+	text-justify: inter-ideograph;
+	margin:0 auto;
+	padding:5px 10px 15px 10px;
+}
+
+
+#seventh_content td .review{
+	width: 100%;
+	margin:5% auto;
+}
+
+#seventh_content td .review p{
+	font-size:90%;
+	height:auto;
+
+	font-family:"メイリオ", Meiryo, sans-serif;
+	text-align:left;
+	margin:5%;
+
+}
+
+#seventh_content td .star{
+	width:90%;
+	height:auto;
+	margin:0 auto;
+}
+
+#seventh_content td .star p{
+	width:90%;
+	font-size:100%;
+	font-weight:bold;
+	font-family:"HGMaruGothicMPRO","メイリオ", Meiryo, sans-serif;
+	text-align:center;
+	margin:0 auto;
+	padding-top:15px;
+}
+
+/*--破線--*/
+hr.dashed_line{
+	width:90%;
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+/*--下向き三角形--*/
+.triangle {
+	width:90%;
+	height:auto;
+	text-align:center;
+}
+
+.triangle p{
+	font-size:100%;
+	font-weight:bold;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	text-align:center;
+	margin:0 auto;
+	color:#665835;
+}
+.no1 {
+	font-size:27px;
+	font-weight:bold;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	text-align:center;
+	margin:0 auto;
+	color:#665835;
+}
+
+.triangle img{
+	padding-top:15px;
+}
+
+/*--「奄美の最高の味」をお届けします！！--*/
+#last_content{
+	display:block;
+	width:100%;
+	height:auto;
+	margin-bottom:5%;
+}
+#last_content {
+	color:#665835;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	font-size:100%;
+	font-weight:normal;
+	text-align:center;
+}
+
+#last_content h4{
+	color:#665835;
+	font-family:"メイリオ", Meiryo, sans-serif;
+	font-size:180%;
+	font-weight:bold;
+	text-align:center;
+}
+
+#last_content .inquiries{
+	padding-top:70px;
+}
+
+#last_content .inquiries img{
+	width:80%;
+	padding-bottom:30px;
+}
+
+.top{
+	font-size:100%;
+	text-align:right;
+	margin-right:8%;
+}
+
+/*--フッター--*/
+footer {
+	width:100%;
+	height:auto;
+    text-align:center;
+	padding-top:5%;
+}
+
+footer small {
+    font-size:100%;
+	font-weight:bold;
+	color:#666;
+}
+footer h5{
+	margin:0;
+	padding:0;
+	padding-top:1%;
+	padding-bottom:5%;
+    font-size:100%;
+	font-weight:bold;
+	color:#000;
+}
+
+
+}
