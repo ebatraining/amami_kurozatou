@@ -335,12 +335,20 @@ body{
     overflow: hidden;
     margin: 5% 0;
 }
-#imp img{
-	width: 39%;
+.order1{
+	width: 32%;
     float: right;
-    padding-left: 2%;
-    margin-top: 6%;
-    margin-right: 3%;
+    margin-top: 2%;
+    margin-right: 11%;
+}
+.order2{
+	width: 46%;
+    float: right;
+    padding-left: 0%;
+    margin-top: 14%;
+    margin-right: -61%;
+
+
 }
 
 #imp .back1{

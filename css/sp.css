@@ -338,12 +338,16 @@ width:80%;
 
 }
 
-#imp img{
-	width: 40%;
-    padding-left: 2%;
-    margin-top: 6%;
-    margin-right: 3%;
-
+.order1{
+	width: 61%;
+    padding: 0% 0% 13% 0%;
+    position: relative;
+    margin: 0% -13% 0% -15%;
+}
+.order2{
+	width: 94%;
+    padding-left: 0%;
+    margin-right: -52%;
 }
 
 
@@ -359,7 +363,7 @@ width:80%;
     color: #202020;
     width: 88%;
     box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 1px 7px rgba(212, 162, 21, 0.46) inset;
-    margin: 1% 21% 3% 5%;
+    margin: -9% 21% 3% 5%;
     text-align: left;
 
 
