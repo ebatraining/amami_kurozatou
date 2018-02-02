@@ -20,7 +20,7 @@ body{
 	background-attachment:fixed;
 	background-repeat:no-repeat;
 	background-position:center center;
-	
+
 }
 
 #wrapper{
@@ -199,7 +199,7 @@ body{
 	height:auto;
 	color:#665835;
 	font-family:"メイリオ", Meiryo, sans-serif;
-	font-size:120%;	
+	font-size:120%;
 	font-weight:bold;
 	text-align:left;
 	margin:2% auto;
@@ -211,7 +211,7 @@ body{
 	display:block;
 	margin:3% auto;
 	clear:both;
-	overflow:hidden; 
+	overflow:hidden;
 }
 
 
@@ -249,7 +249,7 @@ body{
 	display:block;
 	margin:3% auto;
 	clear:both;
-	overflow:hidden; 
+	overflow:hidden;
 }
 
 #first_content .taste .box{
@@ -309,7 +309,7 @@ body{
 	height: auto;
 	color:#665835;
 	font-family:"メイリオ", Meiryo, sans-serif;
-	font-size:120%;	
+	font-size:120%;
 	font-weight:bold;
 	text-align:left;
 	margin:2% auto 5% auto;
@@ -325,21 +325,35 @@ body{
 }
 
 #imp{
-	width:80%;
-	min-width:70%;
-	margin:3% auto 8% auto;
+	width: 100%;
+    min-width: 70%;
+    margin: 0% auto 8% auto;
+    background-image: url(../images/umi.jpg);
+		background-repeat: no-repeat;
+    padding: 2% 2%;
+    background-size: 100%;
+    box-shadow: inset 0 0 15px 15px #ffffff;
+    overflow: hidden;
+    margin: 5% -2%;
+}
+#imp img{
+	width: 39%;
+    float: left;
+    padding-left: 2%;
+    margin-top: 6%;
 }
 
-
 #imp .back1{
-	padding:2%;
-	font-size:120%;
- 	background-color: #add6ff;
+	padding: 1.5% 1% 1.5% 1%;
+    font-size: 100%;
+    background-color: #ffffff;
     border-radius: 5px;
-    padding: 20px;
     position: relative;
     z-index: 0;
-    color:#202020;
+    color: #202020;
+    width: 44%;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 5px 3px rgba(0, 0, 0, 0.2) inset;
+    margin: 7% 45% 6%;
 }
 
 #imp .back1:before{
@@ -358,14 +372,16 @@ body{
 
 
 #imp .back2{
-	padding:2%;
-	font-size:120%;
-	background-color: #8eff8e;
+	padding: 1.5% 1% 1.5% 1%;
+    font-size: 100%;
+    background-color: #ffffff;
     border-radius: 5px;
-    padding: 20px;
     position: relative;
-    z-index: 0;  
-    color:#202020; 
+    z-index: 0;
+    color: #202020;
+    width: 50%;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 5px 3px rgba(0, 0, 0, 0.2) inset;
+    margin: 7% 39% 6%;
 }
 
 #imp .back2:before{
@@ -384,14 +400,16 @@ body{
 
 
 #imp .back3{
-	padding:2%;
-	font-size:118%;
-	background-color: #ffb7db;
+	padding: 1.5% 1% 1.5% 1%;
+    font-size: 100%;
+    background-color: #ffffff;
     border-radius: 5px;
-    padding: 20px;
     position: relative;
-    z-index: 0;   
-    color:#202020;
+    z-index: 0;
+    color: #202020;
+    width: 51%;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 5px 3px rgba(0, 0, 0, 0.2) inset;
+    margin: 8% 38% 6%;
 }
 
 #imp .back3:before{
@@ -427,7 +445,7 @@ body{
 	height:100%;
 	margin:0 auto;
 	margin-top:3%;
-	overflow:hidden; 
+	overflow:hidden;
 }
 
 
@@ -439,7 +457,7 @@ body{
 }
 
 #third_content .osusume a{
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 #third_content .osusume h2{
@@ -485,7 +503,7 @@ body{
 }
 
 #third_content .osusume_ex p{
-	font-family:"メイリオ", Meiryo, sans-serif;	
+	font-family:"メイリオ", Meiryo, sans-serif;
 	font-size:100%;
 	text-align:left;
 	overflow:hidden;
@@ -524,7 +542,7 @@ body{
 #fourth_content .shop {
 	width:65%;
 	font-family:"メイリオ", Meiryo, sans-serif;
-	font-size:100%;	
+	font-size:100%;
 	text-align:left;
 	margin:0 auto 6%;
 }

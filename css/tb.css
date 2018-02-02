@@ -17,7 +17,7 @@ body{
 	-webkit-font-smoothing:antialiased;
 	-moz-font-smoothing:antialiased;
 	margin:0 !important;
-	
+
 }
 
 #wrapper{
@@ -197,13 +197,13 @@ width:80%;
 	padding:1% 0;
 }
 
-	
+
 #first_content .kurozatou_ex p{
 	width:90%;
 	height:auto;
 	color:#665835;
 	font-family:"メイリオ", Meiryo, sans-serif;
-	font-size:110%;	
+	font-size:110%;
 	font-weight:bold;
 	text-align:left;
 	margin:2% auto;
@@ -308,7 +308,7 @@ width:80%;
 	height: auto;
 	color:#665835;
 	font-family:"メイリオ", Meiryo, sans-serif;
-	font-size:120%;	
+	font-size:120%;
 	font-weight:bold;
 	text-align:left;
 	margin:2% auto;
@@ -326,20 +326,38 @@ width:80%;
 }
 
 #imp{
-	width:80%;
-	min-width:70%;
-	margin:3% auto 8% auto;
+	width: 89%;
+    min-width: 70%;
+    margin: 0% auto 8% auto;
+    background-image: url(../images/umi.jpg);
+		background-repeat: 1-repeat;
+    padding: 2% 3%;
+    background-size: 100%;
+    box-shadow: inset 0 0 15px 15px #ffffff;
+    overflow: hidden;
+    margin: 3% 3%;
+}
+
+#imp img{
+	width: 34%;
+    float: left;
+    padding-left: 4%;
+    margin-top: 6%;
+
 }
 
 
 #imp .back1{
-	padding:2%;
-	font-size:100%;
- 	background-color: #add6ff;
+	padding: 1.5% 1% 1.5% 1%;
+    font-size: 100%;
+    background-color: #ffffff;
     border-radius: 5px;
     position: relative;
     z-index: 0;
-    color:#202020;
+    color: #202020;
+    width: 49%;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 5px 3px rgba(0, 0, 0, 0.2) inset;
+    margin: 7% 45% 6%;
 }
 
 
@@ -360,13 +378,18 @@ width:80%;
 
 
 #imp .back2{
-	padding:2%;
-	font-size:100%;
-	background-color: #8eff8e;
+	padding: 1.5%;
+    padding-left: 1%;
+    font-size: 100%;
+    background-color: #ffffff;
     border-radius: 5px;
     position: relative;
-    z-index: 0;  
-    color:#202020; 
+    z-index: 0;
+    color: #202020;
+    width: 60%;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 5px 3px rgba(0, 0, 0, 0.2) inset;
+    margin-left: 35%;
+
 }
 
 
@@ -386,13 +409,16 @@ width:80%;
 
 
 #imp .back3{
-	padding:2%;
-	font-size:100%;
-	background-color: #ffb7db;
+	padding: 1.5% 1% 1.5% 1%;
+    font-size: 100%;
+    background-color: #ffffff;
     border-radius: 5px;
     position: relative;
-    z-index: 0;   
-    color:#202020;
+    z-index: 0;
+    color: #202020;
+    width: 51%;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2), 0px 0px 5px 3px rgba(0, 0, 0, 0.2) inset;
+    margin: 8% 38% 6%;
 }
 
 
@@ -439,7 +465,7 @@ width:80%;
 }
 
 #third_content .osusume a{
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 #third_content .osusume h2{
@@ -482,7 +508,7 @@ width:80%;
 }
 
 #third_content .osusume_ex p{
-	font-family:"メイリオ", Meiryo, sans-serif;	
+	font-family:"メイリオ", Meiryo, sans-serif;
 	font-size:100%;
 	text-align:left;
 }
@@ -520,7 +546,7 @@ width:80%;
 #fourth_content .shop {
 	width:80%;
 	font-family:"メイリオ", Meiryo, sans-serif;
-	font-size:100%;	
+	font-size:100%;
 	text-align:left;
 	margin:0 auto 6%;
 }
